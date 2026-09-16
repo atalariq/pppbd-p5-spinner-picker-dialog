@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Country App</string>
+    <array name="provinces">
+        <item>Pilih Provinsi</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Kalimantan</item>
+        <item>Papua</item>
+        <item>Sulawesi</item>
+        <item>Sumatera</item>
+        <item>Yogyakarta</item>
+    </array>
+</resources>
