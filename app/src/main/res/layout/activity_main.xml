@@ -5,35 +5,26 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
 
     <Spinner
         android:id="@+id/spinnerCountry"
+        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Spinner
         android:id="@+id/spinnerProvince"
+        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <DatePicker
-        android:id="@+id/datePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:calendarViewShown="false"
-        android:datePickerMode="calendar"/>
-
-    <TimePicker
-        android:id="@+id/timePicker"
-        android:timePickerMode="spinner"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnShowCalendar"
+        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Show Calendar"/>
@@ -55,5 +46,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Show Custom Dialog"/>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="calendar"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:timePickerMode="spinner"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
